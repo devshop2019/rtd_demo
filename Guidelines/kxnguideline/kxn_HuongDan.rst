@@ -55,22 +55,22 @@ Image
 * Hình cùng folder kxnguideline với file *kxn_HuongDan.rst*:
      ``.. image:: imageSameFolder.png``
 
-    * .. image:: imageSameFolder.png
+    .. image:: imageSameFolder.png
 
 * Hình khác folder với file *kxn_HuongDan.rst*: 
     ``.. image:: /Guidelines/imageOutside1folder.png``
 
-    * .. image:: /Guidelines/imageOutside1folder.png
+    .. image:: /Guidelines/imageOutside1folder.png
 
 * Hình ở folder images ngoài cùng: 
     ``.. image:: /images/imageInsideImageCore1.png``
 
-    * .. image:: /images/imageInsideImageCore1.png
+    .. image:: /images/imageInsideImageCore1.png
 
 * Hình nằm trong thư mục đồng cấp với file *kxn_HuongDan.rst*:
     ``.. image:: kxnguideline_images/kxnguideline_images_1.png``
 
-    * .. image:: kxnguideline_images/kxnguideline_images_1.png
+    .. image:: kxnguideline_images/kxnguideline_images_1.png
 
 
 Hiberlink:
