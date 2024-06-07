@@ -162,6 +162,7 @@ Nhập nội dung vào `trang này <https://tableconvert.com/restructuredtext-ge
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
+   :name: example-table
 
    * - Cột 1
      - Cột 2
@@ -172,6 +173,23 @@ Nhập nội dung vào `trang này <https://tableconvert.com/restructuredtext-ge
    * - Dòng 2
      - Dòng 2
      - Dòng 2
+
+Code tham khảo::
+
+    .. list-table::
+    :widths: 30 30 30
+    :header-rows: 1
+    :name: example-table
+
+    * - Cột 1
+        - Cột 2
+        - Cột 3
+    * - Dòng 1
+        - Dòng 1
+        - Dòng 1
+    * - Dòng 2
+        - Dòng 2
+        - Dòng 2
 
 Hiberlink:
 ------------
