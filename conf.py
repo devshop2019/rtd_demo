@@ -28,3 +28,26 @@ html_theme = 'sphinx_rtd_theme'
 # highlight_language = 'c++'
 
 html_static_path = ['_static']
+
+# kxn xem https://www.sphinx-doc.org/en/master/usage/configuration.html
+html_logo = "images/logoIcon200px.png"
+html_favicon = "images/icon32px.png"
+
+hoverxref_auto_ref = True
+hoverxref_domains = ["py"]
+hoverxref_roles = [
+    "option",
+    # Documentation pages
+    # Not supported yet: https://github.com/readthedocs/sphinx-hoverxref/issues/18
+    "doc",
+    # Glossary terms
+    "term",
+]
+hoverxref_role_types = {
+    "mod": "modal",  # for Python Sphinx Domain
+    "doc": "modal",  # for whole docs
+    "class": "tooltip",  # for Python Sphinx Domain
+    "ref": "tooltip",  # for hoverxref_auto_ref config
+    "confval": "tooltip",  # for custom object
+    "term": "tooltip",  # for glossaries
+}
