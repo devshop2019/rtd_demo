@@ -14,7 +14,8 @@ build:
     # nodejs: "19"
     # rust: "1.64"
     # golang: "1.19"
-
+    
+  # https://docs.readthedocs.io/en/stable/config-file/v2.html#conda-environment
   jobs: #kxn fix bub build OK
     post_create_environment:
       - python -m pip install sphinx_rtd_theme

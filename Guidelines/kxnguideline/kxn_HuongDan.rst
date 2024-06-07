@@ -1,6 +1,9 @@
 KXN hướng dẫn
 ====================================
 
+:term:`kxn_glossary`
+:term:`Hshop.vn`
+
 Text Format
 ------------
 
@@ -71,6 +74,49 @@ Image
     ``.. image:: kxnguideline_images/kxnguideline_images_1.png``
 
     .. image:: kxnguideline_images/kxnguideline_images_1.png
+
+* Hình nằm trong thư mục đồng cấp với file *kxn_HuongDan.rst* fix width::
+
+    .. image:: kxnguideline_images/kxnguideline_images_1.png
+        :width: 200px
+        :scale: 50 %
+        :alt: alternate name image
+        :align: left
+
+
+.. image:: kxnguideline_images/kxnguideline_images_1.png
+    :width: 200px
+    :align: center
+
+Chữ sẽ nằm bên hong phải của hình.
+
+
+.. figure:: kxnguideline_images/kxnguideline_images_1.png
+    :width: 80%
+    :align: center
+    :alt: Most searched terms
+
+    Most searched
+
+
+
+
+
+haha
+~~~~~
+
+* Hình nằm trong thư mục đồng cấp với file *kxn_HuongDan.rst* fix scale::
+
+    .. image:: kxnguideline_images/kxnguideline_images_1.png``
+        :scale: 50 %
+        :alt: alternate name image
+        :align: center
+
+
+.. image:: kxnguideline_images/kxnguideline_images_1.png
+    :scale: 50 %
+    :alt: alternate name image
+    :align: center
 
 
 Hiberlink:
