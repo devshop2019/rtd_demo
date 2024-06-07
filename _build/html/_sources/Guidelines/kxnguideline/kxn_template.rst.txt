@@ -1,6 +1,0 @@
-Đây là file Template
-
-Đây là nội dung của file template.
-Dùng lệnh này để lấy nội dung của file hiển thị ra một file rst khác::
-
-.. include:: path_to_your_file/fileTemplate.rst
