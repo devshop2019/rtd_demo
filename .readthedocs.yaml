@@ -20,6 +20,7 @@ build:
     post_create_environment:
       - python -m pip install sphinx_rtd_theme
       - python -m pip install sphinx-hoverxref
+      - python -m pip install sphinxcontrib-video
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
