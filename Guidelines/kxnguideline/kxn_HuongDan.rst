@@ -77,18 +77,23 @@ Image
 
 * Hình nằm trong thư mục đồng cấp với file *kxn_HuongDan.rst* fix width::
 
-    .. image:: kxnguideline_images/kxnguideline_images_1.png
+    .. figure:: kxnguideline_images/kxnguideline_images_1.png
         :width: 200px
         :scale: 50 %
-        :alt: alternate name image
+        :alt: kxnguideline_images_1.png
         :align: left
 
+        kxnguideline_images_1.png
 
-.. image:: kxnguideline_images/kxnguideline_images_1.png
+
+.. figure:: kxnguideline_images/kxnguideline_images_1.png
     :width: 200px
     :align: center
+    :alt: kxnguideline_images_1.png
 
-Chữ sẽ nằm bên hong phải của hình.
+    kxnguideline_images_1.png
+
+
 
 
 .. figure:: kxnguideline_images/kxnguideline_images_1.png
@@ -96,14 +101,9 @@ Chữ sẽ nằm bên hong phải của hình.
     :align: center
     :alt: Most searched terms
 
-    Most searched
+    Most searched terms
 
 
-
-
-
-haha
-~~~~~
 
 * Hình nằm trong thư mục đồng cấp với file *kxn_HuongDan.rst* fix scale::
 
@@ -117,6 +117,29 @@ haha
     :scale: 50 %
     :alt: alternate name image
     :align: center
+
+
+video
+---------
+
+.. raw:: html
+
+   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/oqhAe4JNsaE?si=OAmh2o5RoiXNSAvV" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+   </div>
+   <br>
+
+
+Code tham khảo:
+
+.. code-block:: html
+
+    .. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oqhAe4JNsaE?si=OAmh2o5RoiXNSAvV" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+    <br>
 
 
 Hiberlink:

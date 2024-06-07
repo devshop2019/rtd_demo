@@ -13,7 +13,7 @@ Trang này bao gồm một số thuật ngữ mà chúng tôi sử dụng trong 
 
     Makerlab.vn
         Là nơi cung cấp các dịch vụ hướng dẫn các dự án cơ bản cho người mới bắt đầu học :term:`Arduino`, :term:`STEAM`.
-        Thời gian làm việc tương tự như bên :term:`Hshop.vn`
+        Thời gian làm việc tương tự như bên :term:`Hshop.vn`.
 
     Arduino
         Nổi tiếng nhất trên TG

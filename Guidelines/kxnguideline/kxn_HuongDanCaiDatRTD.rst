@@ -27,6 +27,8 @@ Chạy các lệnh cmd:
 * ``pip install sphinx``
 * ``pip install sphinx_theme``
 * ``mingw32-make html``
+* ``pip install sphinx-hoverxref``
+* ``pip install sphinxcontrib-video``
 
 Config file:
 -------------
@@ -41,10 +43,10 @@ Khai báo file ``.readthedocs.yaml``::
     # .readthedocs.yaml
     # Read the Docs configuration file
     # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
-    
+
     # Required
     version: 2
-    
+
     # Set the OS, Python version and other tools you might need
     build:
       os: ubuntu-22.04
@@ -54,20 +56,20 @@ Khai báo file ``.readthedocs.yaml``::
         # nodejs: "19"
         # rust: "1.64"
         # golang: "1.19"
-    
+
       jobs: #kxn fix bub build OK
         post_create_environment:
           - python -m pip install sphinx_rtd_theme
-    
+
     # Build documentation in the "docs/" directory with Sphinx
     sphinx:
       configuration: conf.py
-    
+
     # Optionally build your docs in additional formats such as PDF and ePub
     # formats:
     #    - pdf
     #    - epub
-    
+
     # Optional but recommended, declare the Python requirements required
     # to build your documentation
     # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html
