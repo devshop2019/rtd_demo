@@ -142,6 +142,37 @@ Code tham khảo:
     <br>
 
 
+Table:
+----------
+
+* Cách 1: dùng tool:
+
+Nhập nội dung vào `trang này <https://tableconvert.com/restructuredtext-generator>`_ để tạo table.
+
++-----+-----------+-------+--------------------+
+| STT | Họ        | Tên   | Ghi chú            |
++=====+===========+=======+====================+
+| 1   | Khưu Xuân | Ngọc  | Kỹ thuật, bán hàng |
++-----+-----------+-------+--------------------+
+| 2   | Khưu Xuân | Thạch | Bán hàng, mua hàng |
++-----+-----------+-------+--------------------+
+
+* Cách 2, gọi lệnh:
+
+.. list-table::
+   :widths: 30 30 30
+   :header-rows: 1
+
+   * - Cột 1
+     - Cột 2
+     - Cột 3
+   * - Dòng 1
+     - Dòng 1
+     - Dòng 1
+   * - Dòng 2
+     - Dòng 2
+     - Dòng 2
+
 Hiberlink:
 ------------
 
