@@ -7,3 +7,4 @@ Kxn in content
    :caption: Contents:
 
    kxnguideline/kxn_HuongDan
+   kxnguideline/kxn_HuongDanCaiDatRTD
