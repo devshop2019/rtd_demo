@@ -6,7 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Coding with kids'
+project = 'Makerlab.vn Doc'
+# project = 'Coding with kids'
 copyright = '2024, kxn'
 author = 'kxn'
 
@@ -31,6 +32,7 @@ html_theme = 'sphinx_rtd_theme'
 # highlight_language = 'c++'
 
 html_static_path = ['_static']
+html_css_files = ["css/custom.css"]
 
 # kxn xem https://www.sphinx-doc.org/en/master/usage/configuration.html
 html_logo = "images/logoIcon200px.png"

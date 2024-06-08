@@ -163,6 +163,7 @@ Nhập nội dung vào `trang này <https://tableconvert.com/restructuredtext-ge
    :widths: 30 30 30
    :header-rows: 1
    :name: example-table
+   :class: tight-table
 
    * - Cột 1
      - Cột 2
@@ -172,7 +173,7 @@ Nhập nội dung vào `trang này <https://tableconvert.com/restructuredtext-ge
      - Dòng 1
    * - Dòng 2
      - Dòng 2
-     - Dòng 2
+     - Dòng 2 dài iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 
 Code tham khảo::
 
@@ -180,6 +181,7 @@ Code tham khảo::
     :widths: 30 30 30
     :header-rows: 1
     :name: example-table
+    :class: tight-table
 
     * - Cột 1
         - Cột 2
@@ -189,7 +191,7 @@ Code tham khảo::
         - Dòng 1
     * - Dòng 2
         - Dòng 2
-        - Dòng 2
+        - Dòng 2 dài iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 
 Hiberlink:
 ------------
