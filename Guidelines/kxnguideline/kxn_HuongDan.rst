@@ -1,7 +1,6 @@
 KXN hướng dẫn
 ====================================
 
-:term:`kxn_glossary`
 :term:`Hshop.vn`
 
 Text Format
@@ -51,6 +50,16 @@ code mẫu note::
     * Ghi chú 4
 
 Một đoạn văn bản bên ngoài note.
+
+Định nghĩa từ
+---------------
+:term:`kxn_glossary`
+
+.. tip::
+
+    .. code-block:: text
+    
+        :term:`kxn_glossary`
 
 Image
 ------
