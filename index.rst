@@ -3,33 +3,20 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Coding with kxn's documentation!
-============================================
-kxn hello (1)
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   :caption: Contents:
-
-   Options/justlogic
-   Options/justcode
-   Guidelines/content
+.. include:: wikiMakerlab/home.rst
 
 .. toctree::
    :maxdepth: 2
-   :caption: KXN Contents 1:
+   :hidden:
+   :caption: MakerLab home:
+
+   wikiMakerlab/home.rst
+   
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: KXN Hướng dẫn:
 
    Guidelines/content
-   Options/justcode
 
-Guidelines/content
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Khưu Xuân Ngọc Đã ghi chú ở đây, a á â o ô ơ điều thà thành hành tầm thồ trồng xuẩn xuần quận quấn
