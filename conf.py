@@ -17,6 +17,8 @@ author = 'kxn'
 extensions = [
     'hoverxref.extension',
     'sphinxcontrib.video',
+    'myst_parser',
+    'sphinx_copybutton'
 ]
 
 templates_path = ['_templates']
