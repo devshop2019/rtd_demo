@@ -1,9 +1,0 @@
-Giới thiệu và hướng dẫn sử dụng nhanh các mạch Vietduino
-=========================================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Vietduino
-
-   vietduino_uno.rst
-   vietduino_mega2560.rst
