@@ -23,6 +23,7 @@ build:
       - python -m pip install sphinxcontrib-video
       - python -m pip install recommonmark
       - python -m pip install sphinx-copybutton
+      - python -m pip install myst_parser
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
