@@ -59,7 +59,7 @@ function reLoadSphinxTabs() {
                 // Once the script has been executed, we remove it from the DOM
                 script.parentNode.removeChild(script);
             }
-            var newer_tabs_src = $('script[src$="_static/tabs.js"]');
+            var newer_tabs_src = $('script[src$="kxn_static/tabs.js"]');
             if (newer_tabs_src.length != 0) {
                 // sphinx-tabs > 2
                 // Borrowed from
